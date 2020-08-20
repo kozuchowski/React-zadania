@@ -1,0 +1,40 @@
+{
+  "name": "WAR_FER_W_30_REACT_React",
+  "version": "1.0.0",
+  "description": "<img src=\"http://coderslab.pl/img/coderslab-logo.png\" align=\"right\" width=\"400\"/>",
+  "main": "index.js",
+  "scripts": {
+    "start": "webpack-dev-server --hot -d",
+    "build": "webpack -p"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/CodersLab/WAR_FER_W_30_REACT_React.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/CodersLab/WAR_FER_W_30_REACT_React/issues"
+  },
+  "homepage": "https://github.com/CodersLab/WAR_FER_W_30_REACT_React#readme",
+  "devDependencies": {
+    "@babel/core": "^7.10.4",
+    "@babel/plugin-proposal-class-properties": "^7.10.4",
+    "@babel/preset-env": "^7.10.4",
+    "@babel/preset-react": "^7.10.4",
+    "babel-loader": "^8.1.0",
+    "babel-plugin-minify-dead-code-elimination": "^0.5.1",
+    "css-loader": "^3.6.0",
+    "node-sass": "^4.14.1",
+    "sass-loader": "^9.0.2",
+    "style-loader": "^1.2.1",
+    "webpack": "^4.43.0",
+    "webpack-cli": "^3.3.12",
+    "webpack-dev-server": "^3.11.0"
+  },
+  "dependencies": {
+    "react": "^16.11.0",
+    "react-dom": "^16.11.0"
+  }
+}
